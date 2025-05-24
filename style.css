@@ -285,3 +285,84 @@ body {
     margin-right: 20px;
   }
 }
+
+/* RESPONSIVO - MOBILE */
+@media (max-width: 768px) {
+  .container-topo {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .perfil-img {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .info-topo-wrapper {
+    width: 100%;
+  }
+
+  .info-topo h1 {
+    font-size: 2.2rem;
+  }
+
+  .subtitulo {
+    font-size: 1rem;
+  }
+
+  .redes-sociais {
+    justify-content: center;
+  }
+
+  .empresa-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar,
+  .conteudo-principal {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .secao-card {
+    padding: 20px;
+  }
+
+  .progress-bar .skill span {
+    font-size: 0.9rem;
+  }
+
+  .porcentagem-barra {
+    height: 8px;
+  }
+
+  .porcentagem small {
+    font-size: 0.7rem;
+    right: 3px;
+    top: -18px;
+  }
+
+  .sidebar section {
+    margin-bottom: 30px;
+  }
+
+  .habilidades .progress-bar .skill {
+    margin-bottom: 15px;
+  }
+
+  .redes-sociais a {
+    font-size: 1.2rem;
+  }
+
+  .download-pdf .btn-download {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
